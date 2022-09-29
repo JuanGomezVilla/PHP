@@ -1,0 +1,46 @@
+body {
+	margin: 0 auto;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align: center;
+	user-select: none;
+}
+
+button {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	font: 16px Arial;
+	padding: 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .3s ease;
+}
+
+button:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.contenedor {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.vida {
+	background-image: url("../img/vida.png");
+	background-size: cover;
+	height: 32px;
+	width: 26px;
+	display: inline-block;
+	margin: 20px;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.vida:hover {
+	transform: rotate(360deg);
+}
